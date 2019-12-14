@@ -1,0 +1,65 @@
+---
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+##
+<br/><br/><center><font size="18">*WQD 7001 Principle of Data Science*</font></center><br/><br/> 
+
+<center><font size="18">Group Project</font></center><br/>   
+
+<center><font size="24">**Title: Pima Indian Diabetic Analysis**</font></center><br/>
+
+Group 8  
+Group Members:  
+Xavier Tay Yi Han  (WQD 180109)  
+Law Chen Cha       (WQD 180087)  
+Lee Mei Tee        (WDQ 180046)  
+Bong Sze Ting      (WQD 180033)   
+
+
+## 
+<center><font size="20">*Introduction*</font></center>  
+- Diabetes is a disease that occurs when the blood glucose is too high.<br/><br/>
+- Diabetes dramatically increases the risk of various cardiovascular problems, including coronary artery disease with chest pain, heart attack, stroke and narrowing of arteries.<br/><br/>
+- Some of the risk factors for diabetes including weight, age, blood pressure, inactivity, race,family history and so on.<br/><br/>
+- In order to understand more about the factors that cause diabetes, an app has been develop to study the relatioship between the variables for diabetes and non-diabetes.<br/><br/>
+- A predictive model to diagnostically predict if a patient has diabetes is also included in the app.<br/><br/>
+- However, this app is mainly focus on female and Pima Indian heriatge.<br/><br/>
+
+## 
+<center><font size="20">*Data Science Process*</font></center> 
+1. Asking a question<br/>
+    + What is the variables that affect diabetes and what is their relationship?<br/>
+    + What method can be used to build a predictive model for diabetes? <br/>
+2. Getting data<br/>
+    + The dataset is obtained from Kaggle. The dataset consists several medical predictor variables for diabetes. The dataset only include the             information of female for Pima Indian heritage.<br/>
+    + Source: https://www.kaggle.com/uciml/pima-indians-diabetes-database<br/>
+3. Exploring the data<br/>
+    + Visualize the data by using chart diagram<br/>
+4. Analyzing the data<br/>
+    + Build a predictive model for diabetes<br/>
+5. Presenting the result<br/>
+    + The result is presented by using Shiny App<br/>  
+
+Please refer this link for the R code:
+
+
+##
+<center><font size="20">*App Description and Outcome*</font></center>
+The app can be accessed at:
+
+
+##
+<center><font size="20">*Experience*</font></center><br/>  
+- By using shiny app, we can visualize the relationship between variable of diabetes dataset in an interative manner.<br/><br/> 
+- It is easy to use as does not need any knowledge of HTML or JavaScript to get started.<br/><br/> 
+- The predictive model in the app is beneficial for people to predict if they has diabetes.<br/><br/> 
+
+Thank you
+
